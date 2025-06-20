@@ -130,8 +130,8 @@ namespace Paper_Trader
                 totalValue += currentPrice * purchase.Quantity;
             }
 
-            lblPortfolioValue.Text = $"Portfolio Value: ${totalValue:F2}";
-            lblcurrency.Text = $"Cash: ${cash:F2}";
+            lblPortfolioValue.Text = $"Portfolio Value: ${totalValue}";
+            lblcurrency.Text = $"Cash: ${cash}";
         }
 
         private async void button1_Click(object sender, EventArgs e)

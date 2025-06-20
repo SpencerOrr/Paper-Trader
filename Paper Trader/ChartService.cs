@@ -28,7 +28,7 @@ public class ChartService
 
             var series = json["Time Series (Daily)"];
             if (series == null)
-                throw new Exception("Time Series data not found. Check the stock symbol or API key.");
+                throw new Exception("Time Series data not found. Check the stock symbol.");
 
             var candles = new List<OHLC>();
             var dates = new List<DateTime>();
